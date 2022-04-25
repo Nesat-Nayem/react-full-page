@@ -1,0 +1,52 @@
+/* html,
+body {
+  margin: 0;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: default;
+} */
+#container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  /* padding: 20px; */
+  box-sizing: border-box;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  color: #000;
+  background-color: #e6e6e6;
+}
+.first-page {
+  height: 100vh;
+  min-height: 100vh;
+}
+.second-page {
+  height: 100vh;
+  min-height: 100vh;
+}
+.third-page {
+  height: 100vh;
+  min-height: 100vh;
+}
+.fourth-page {
+  height: 100vh;
+  min-height: 100vh;
+}
+.hint {
+  position: absolute;
+  height: 100vh;
+  min-height: 100vh;
+}
